@@ -56,7 +56,15 @@ header nav span {
   top: 75px;
 }
 
-/* OLVIDATE DE LAS TEA CARDS, CONCENTRATE EN EL COLOR DE FONDO DE LA PRIMERA SECCIÓN */
+/* Main */
+
+h1 {
+  margin: 0px 0px 10px 0px;
+}
+
+.description h4 {
+  margin: 0px;
+}
 
 .container .main {
   display: flex;
@@ -75,7 +83,7 @@ header nav span {
   flex-direction: column;
   background-image: none;
   background-color: black;
-  height: 180px;
+  height: 150px;
 }
 
 .description span {
@@ -129,7 +137,7 @@ header nav span {
 .locationsflex {
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 
 .locations {
@@ -169,6 +177,10 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   height: 200px;
+}
+
+footer h3 {
+  margin: 0px;
 }
 
 .copyright {
