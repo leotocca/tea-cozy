@@ -1,3 +1,8 @@
+/*
+
+*/
+
+
 /* Universal */
 
 body {
@@ -24,6 +29,7 @@ header {
 header img {
   margin-left: 10px;
   height: 50px;
+  align-self: center;
 }
 
 .logo {
@@ -38,41 +44,135 @@ header nav {
 header nav span {
   text-decoration: underline;
   margin-right: 25px;
-
 }
 
 /* Content */
 
 .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
   top: 75px;
 }
 
 /* OLVIDATE DE LAS TEA CARDS, CONCENTRATE EN EL COLOR DE FONDO DE LA PRIMERA SECCIÓN */
 
-.main {
+.container .main {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.main {
   width: 1200px;
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
+  align-self: center;
 }
 
 .description {
   display: flex;
   flex-direction: column;
+  background-image: none;
   background-color: black;
+  height: 180px;
+}
+
+.description span {
+  margin-bottom: 20px;
 }
 
 /* tea cards */
 
+.Featured-Tea {
+  width: 1000px;
+  margin: 80px 0px;
+  align-self: center;
+}
+
 .Teas {
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Teasone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Teastwo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Teas img {
+  height: 200px;
+  width: 300px;
+  margin: 0px 20px;
+}
+
+.Teas span {
+  margin-top: 10px;
 }
 
 .Tea1, .Tea2, .Tea3, .Tea4, .Tea5 {
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Locations */
+
+.locationsflex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1000px;
+  height: 500px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location1, .location2, .location3 {
+  display: flex;
+  flex-direction: column;
   width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+.columns span {
+  margin: 20px 0px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.copyright {
+  margin: 20px 0px 20px 20px;
+  text-align: left;
+  font-size: 12px;
 }
